@@ -1,0 +1,167 @@
+/********** common setting **********/
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    /* display: block; */
+    max-width: 30%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+.atlas-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.atlas-cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.atlas-cta-wide {
+    width: 100%;
+}
+
+.cta-green {
+    background: rgb(23, 68, 123);
+    color: white;
+}
+
+.cta-green:hover {
+    color: #ffffff;
+    background: rgb(149, 28, 21);
+}
+
+.cta-blue {
+    background: #192440;
+    color: #ffffff;
+}
+
+.cta-blue:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+.cta-ghost {
+    border: 2px solid #192440 !important;
+    color: #192440;
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+#banner {
+    background-size: cover;
+    background-color: white;
+    /* background-image: linear-gradient(white, rgb(149, 28, 21), rgb(23, 68, 123)); */
+}
+
+/********** banner **********/
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 80px;
+}
+
+
+/********** feature (skew background) **********/
+.feature img {
+    width: 100%;
+    max-width: 480px;
+}
+
+#feature-first {
+    background: rgb(23, 68, 123);
+    background-image: linear-gradient(white, rgb(23, 68, 123), rgb(149, 28, 21), white);
+}
+
+#feature-last {
+    background: rgb(149, 28, 21);
+}
+
+/********** price table **********/
+#price-table {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+/* #price-table__premium {
+    background: rgb(149, 28, 21);
+    color: #ffffff;
+} */
+
+#price-table ul li {
+    padding: 5px 0;
+}
+
+/********** contact **********/
+#contact {
+    background-image: linear-gradient(white, rgb(23, 68, 123), rgb(23, 68, 123));
+}
+
+#contact ul li {
+    padding: 3px 0;
+}
+
+#contact form {
+    color: white;
+}
+
+#contact form input,
+#contact form textarea {
+    background: transparent;
+    border: 1px solid rgb(149, 28, 21);
+    color: #ffffff;
+}
+
+/********** copyright **********/
+#copyright {
+    background: rgb(149, 28, 21);
+    padding: 2rem 3rem;
+    background-image: linear-gradient(rgb(23, 68, 123), rgb(149, 28, 21));
+}
+
+#copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #ffffff;
+    transition: .4s ease;
+}
+
+#copyright #social-media a i {
+    color: #192440;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+    background: #00FFAD;
+}
+
+#copyright #social-media a:hover i {
+    color: #ffffff;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+}
